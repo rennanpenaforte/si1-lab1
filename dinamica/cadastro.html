@@ -1,0 +1,84 @@
+<!-- Rennan Victor de Freitas Penaforte -->
+<!-- Pagina já finalizada  -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="bootstrap/js/jQuery.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Cadastro</title>
+
+
+</head>
+
+
+<body>
+    <section>
+    <center>
+        <h1>Sistemas de Informação 1</h1>
+    </center>
+    <nav class="navbar navbar-static-top" role="navigation">
+        <div>
+            <ul class="nav nav-pills">
+                <li class="active"><a href="index.html">Inicio</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+</section>
+
+<section>
+
+
+    <form name="input" method="get" action="paginadeassutos.html" class="form-style">
+
+        <div class="panel panel-primary">
+            <div class="panel-heading" >
+                <strong>Informações pessoais:</strong>
+            </div></div>
+
+
+        <div class="input-group">
+            <span class="input-group">Nome:</span>
+            <input id="nome" type="text" class="form-control" size="220" autofocus="" placeholder="Nome Completo" required>
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-">Sexo: </span> &nbsp&nbsp
+            <input type="radio" id="sexo" name="sex" value="Masculino">  Masculino
+            <input type="radio" id="sexo "name="sex" value="Feminino">  Feminino
+
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-">Matricula:</span> <input
+                    type="text" id="matricula" class="form-control"
+                    title="Lembre-se a matricula sempre começa com 11 e possui 9 digitos"
+                    maxlength="9" size="220"
+                    pattern="11[0-9]{7}" placeholder="11-------" required>
+        </div>
+
+        <div class="input-group">
+            <span class="input-group " >Email:</span>
+            <input type="email" id="email" class="form-control" placeholder="exemple@exemple.com" required size="210">
+        </div>
+
+        <p>
+            <strong>Por favor:</strong> Antes de clicar em 'Enviar' certifique-se
+            de que digitou seus dados corretamente!
+        </p>
+
+        <input id="enviar" type="submit" class="btn btn-success" value="Enviar">
+        </fieldset>
+    </form>
+</section>
+
+
+</body>
+</html>
+</html>

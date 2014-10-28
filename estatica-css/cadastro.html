@@ -1,0 +1,56 @@
+<!-- Rennan Victor de Freitas Penaforte -->
+<!-- Pagina já finalizada  -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Sistemas de Informação 1</title>
+    <h1>
+        <center>Página de Sistemas de Informação 1 - UFCG</center>
+    </h1>
+</head>
+<body>
+    <h2>Primeiro vamos coletar seus dados.</h2>
+    <section>
+
+        <form name="input" action="final.html" method="get">
+
+            <tr>
+                <td>Nome:</td>
+                <td><input type="text" name="nome" placeholder="nome completo" autofocus size="40"> <br></td>
+            <tr/>
+
+            <tr>
+                <td>Sexo:</td>
+                <td><input type="radio" name="sexo" value="Masculino" > Masculino </td>
+                <td><input type="radio" name="sexo" value="Feminino" > Feminino <br></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td> <input type="email" name="email" size="40" placeholder="exemplo@exemplo.com" required><br></td>
+            </tr>
+
+            <tr>
+                <td>Matricula:</td>
+                <td> <input type="text"size="40" maxlength="9"
+                        title="Lembre-se a matricula sempre começa com 11 e possui 9 digitos" name="matricula"
+                        placeholder="Matricula" pattern="11[0-9]{7}" required><br></td>
+            </tr>
+
+            <tr>
+                <td>Nascimento:</td>
+                <input type="text" name="dia" size="3" maxlength="2" value="dd">
+                <input type="text" name="mes" size="3" maxlength="2" value="mm">
+                <input type="text" name="ano" size="5" maxlength="4" value="aaaa"><br>
+            </tr>
+
+            <tr><button type="button" onclick="window.open('final.html');">Cadastrar</button><tr/>
+        </form>
+
+    </section>
+</body>
+</html>
